@@ -183,77 +183,75 @@ export default function Home() {
           </div>
         </div>
       </div>
-     <div className="px-24">
-      <div className="grid grid-cols-2 mt-16 bg-blue-100/70 p-14 rounded-3xl gap-32 items-center">
-        <div>
-          <h2 className="text-3xl font-semibold">
-            What Makes
-          </h2>
+      <div className="px-24">
+        <div className="grid grid-cols-2 mt-16 bg-blue-100/70 p-14 rounded-3xl gap-32 items-center">
+          <div>
+            <h2 className="text-3xl font-semibold">What Makes</h2>
 
-          <h2 className="text-3xl font-semibold">
-             <span className="text-blue-600">Penieltech</span> Special?
-          </h2>
+            <h2 className="text-3xl font-semibold">
+              <span className="text-blue-600">Penieltech</span> Special?
+            </h2>
 
-          <p className="pt-6 text-gray-600 max-w-xl leading-relaxed">
-            Penieltech delivers comprehensive technology solutions across
-            accounting, IT infrastructure, security, web development, and
-            hardware systems. We focus on understanding each client's unique
-            requirements to provide integrated solutions that drive business
-            efficiency. Our expertise spans from implementation to ongoing
-            support, making us a reliable technology partner.
-          </p>
-        </div>
-
-        <div className="space-y-4">
-          <div className="flex gap-4 bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition-all duration-300">
-            <div className="flex items-center justify-center min-w-12 h-12 rounded-lg bg-blue-50">
-              <RiStackLine size={22} className="text-blue-600" />
-            </div>
-            <div>
-              <h4 className="font-semibold text-lg leading-tight">
-                Comprehensive Solutions
-              </h4>
-              <p className="text-sm text-gray-600 mt-1">
-                Services include accounting systems, IT infrastructure, security,
-                web development, and hardware solutions for complete business
-                support.
-              </p>
-            </div>
+            <p className="pt-6 text-gray-600 max-w-xl leading-relaxed">
+              Penieltech delivers comprehensive technology solutions across
+              accounting, IT infrastructure, security, web development, and
+              hardware systems. We focus on understanding each client's unique
+              requirements to provide integrated solutions that drive business
+              efficiency. Our expertise spans from implementation to ongoing
+              support, making us a reliable technology partner.
+            </p>
           </div>
 
-          <div className="flex gap-4 bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition-all duration-300">
-            <div className="flex items-center justify-center min-w-12 h-12 rounded-lg bg-blue-50">
-              <RiUserHeartLine size={22} className="text-blue-600" />
+          <div className="space-y-4">
+            <div className="flex gap-4 bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition-all duration-300">
+              <div className="flex items-center justify-center min-w-12 h-12 rounded-lg bg-blue-50">
+                <RiStackLine size={22} className="text-blue-600" />
+              </div>
+              <div>
+                <h4 className="font-semibold text-lg leading-tight">
+                  Comprehensive Solutions
+                </h4>
+                <p className="text-sm text-gray-600 mt-1">
+                  Services include accounting systems, IT infrastructure,
+                  security, web development, and hardware solutions for complete
+                  business support.
+                </p>
+              </div>
             </div>
-            <div>
-              <h4 className="font-semibold text-lg leading-tight">
-                Customer-Centric Approach
-              </h4>
-              <p className="text-sm text-gray-600 mt-1">
-                We provide personalized attention and customized solutions
-                designed specifically for your business needs and goals.
-              </p>
-            </div>
-          </div>
 
-          <div className="flex gap-4 bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition-all duration-300">
-            <div className="flex items-center justify-center min-w-12 h-12 rounded-lg bg-blue-50">
-              <RiLightbulbFlashLine size={22} className="text-blue-600" />
+            <div className="flex gap-4 bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition-all duration-300">
+              <div className="flex items-center justify-center min-w-12 h-12 rounded-lg bg-blue-50">
+                <RiUserHeartLine size={22} className="text-blue-600" />
+              </div>
+              <div>
+                <h4 className="font-semibold text-lg leading-tight">
+                  Customer-Centric Approach
+                </h4>
+                <p className="text-sm text-gray-600 mt-1">
+                  We provide personalized attention and customized solutions
+                  designed specifically for your business needs and goals.
+                </p>
+              </div>
             </div>
-            <div>
-              <h4 className="font-semibold text-lg leading-tight">
-                Proven Expertise
-              </h4>
-              <p className="text-sm text-gray-600 mt-1">
-                With extensive experience in both accounting and technology
-                solutions, we have helped numerous businesses achieve operational
-                excellence.
-              </p>
+
+            <div className="flex gap-4 bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition-all duration-300">
+              <div className="flex items-center justify-center min-w-12 h-12 rounded-lg bg-blue-50">
+                <RiLightbulbFlashLine size={22} className="text-blue-600" />
+              </div>
+              <div>
+                <h4 className="font-semibold text-lg leading-tight">
+                  Proven Expertise
+                </h4>
+                <p className="text-sm text-gray-600 mt-1">
+                  With extensive experience in both accounting and technology
+                  solutions, we have helped numerous businesses achieve
+                  operational excellence.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
       <div className="h-20"></div>
     </>
   );
