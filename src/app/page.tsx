@@ -16,7 +16,7 @@ import {
 export default function Home() {
   return (
     <>
-      <div className="container px-24 grid grid-cols-2 items-center min-h-[85vh]">
+      <div className="px-24 grid grid-cols-2 items-center min-h-[85vh]">
         <div>
           <div className="inline-flex items-center gap-2 bg-blue-50 text-blue-600 px-4 py-1.5 rounded-full text-sm font-medium">
             <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
@@ -183,7 +183,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-     <div className="container px-24">
+     <div className="px-24">
       <div className="grid grid-cols-2 mt-16 bg-blue-100/70 p-14 rounded-3xl gap-32 items-center">
         <div>
           <h2 className="text-3xl font-semibold">

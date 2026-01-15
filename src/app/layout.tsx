@@ -25,7 +25,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${manrope.variable} antialiased`}>
     
-      <nav className="grid grid-cols-3 items-center container px-24 py-4">
+      <nav className="grid grid-cols-3 items-center px-24 py-4">
 
   <div className="text-lg font-bold">
     <img className="h-7" src="./penieltech.svg" alt="Penieltech logo" />
